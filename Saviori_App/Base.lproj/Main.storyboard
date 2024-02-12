@@ -16,16 +16,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="New Project (2)" translatesAutoresizingMaskIntoConstraints="NO" id="eoG-JO-yit">
+                                <rect key="frame" x="-93" y="713" width="578" height="138"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JR9-Kt-mED">
                                 <rect key="frame" x="0.0" y="102" width="393" height="688"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <viewLayoutGuide key="contentLayoutGuide" id="f0Z-KM-dCg"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="iLL-Cg-c1M"/>
                             </scrollView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="New Project (2)" translatesAutoresizingMaskIntoConstraints="NO" id="eoG-JO-yit">
-                                <rect key="frame" x="-93" y="713" width="578" height="138"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="New Project (2) (1)" id="es8-Nn-TJl">
                                 <rect key="frame" x="-43" y="-5" width="478" height="124"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -45,7 +45,7 @@
             <objects>
                 <viewController id="uAy-ZZ-FC6" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Qb7-Hi-Twj">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$avori" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1xC-Bf-9Nm">
@@ -159,7 +159,7 @@
             <objects>
                 <viewController id="Fdg-Cn-Pz3" customClass="ViewController" customModule="Savori" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SES-8n-xxf">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image (1)" translatesAutoresizingMaskIntoConstraints="NO" id="Evc-PT-GWC">
@@ -283,7 +283,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="r8w-an-6cf"/>
+        <segue reference="gsN-rC-Vf5"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Logo" width="320" height="321"/>
