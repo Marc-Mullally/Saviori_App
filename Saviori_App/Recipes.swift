@@ -10,9 +10,11 @@ import UIKit
 
 struct Recipe{
     var name: String
-    var recipelist: String
+    var recipelist: [String]
     var imageView: UIImage
     
     
     
+    
 }
+

@@ -15,14 +15,14 @@ class RecipeCollectionViewController: UICollectionViewController {
       let minimumInteritemSpacing: CGFloat = 10
       let cellsPerRow = 5
     let recipes = [Recipe(name: "Chinese", recipelist: "ha", imageView: #imageLiteral(resourceName: "download")),
-                   Recipe(name: "Cubian", recipelist: "ha", imageView: #imageLiteral(resourceName: "New Project (2) (1)")),
-                   Recipe(name: "Greek", recipelist: "ha", imageView: #imageLiteral(resourceName: "New Project (2) (1)")),
-                   Recipe(name: "Indian", recipelist: "ha", imageView: #imageLiteral(resourceName: "New Project (2) (1)")),
-                   Recipe(name: "Japanese", recipelist: "ha", imageView: #imageLiteral(resourceName: "New Project (2) (1)")),
-                   Recipe(name: "Haitian", recipelist: "ha", imageView: #imageLiteral(resourceName: "New Project (2) (1)")),
-                   Recipe(name: "American", recipelist: "ha", imageView: #imageLiteral(resourceName: "New Project (2) (1)")),
-                   Recipe(name: "Salvadorian", recipelist: "ha", imageView: #imageLiteral(resourceName: "New Project (2) (1)")),
-                   Recipe(name: "Jamaican", recipelist: "ha", imageView: #imageLiteral(resourceName: "New Project (2) (1)"))
+                   Recipe(name: "Cubian", recipelist: "ha", imageView: #imageLiteral(resourceName: "cuba flag")),
+                   Recipe(name: "Greek", recipelist: "ha", imageView: #imageLiteral(resourceName: "greek")),
+                   Recipe(name: "Indian", recipelist: "ha", imageView: #imageLiteral(resourceName: "Indian flag")),
+                   Recipe(name: "Japanese", recipelist: "ha", imageView: #imageLiteral(resourceName: "Japan")),
+                   Recipe(name: "Haitian", recipelist: "ha", imageView: #imageLiteral(resourceName: "Haitian")),
+                   Recipe(name: "American", recipelist: "ha", imageView: #imageLiteral(resourceName: "american")),
+                   Recipe(name: "Salvadorian", recipelist: "ha", imageView: #imageLiteral(resourceName: "salvadorian")),
+                   Recipe(name: "Jamaican", recipelist: "ha", imageView: #imageLiteral(resourceName: "Jamaican"))
                    
     ]
     
