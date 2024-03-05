@@ -14,7 +14,7 @@ class RecipeCollectionViewController: UICollectionViewController {
       let minimumLineSpacing: CGFloat = 10
       let minimumInteritemSpacing: CGFloat = 10
       let cellsPerRow = 5
-    let recipes = [Recipe(name: "Chinese", recipelist: "ha", imageView: #imageLiteral(resourceName: "download")),
+    let recipes = [Recipe(name: "Chinese", recipelist: [], imageView: #imageLiteral(resourceName: "download")),
                    Recipe(name: "Cubian", recipelist: "ha", imageView: #imageLiteral(resourceName: "cuba flag")),
                    Recipe(name: "Greek", recipelist: "ha", imageView: #imageLiteral(resourceName: "greek")),
                    Recipe(name: "Indian", recipelist: "ha", imageView: #imageLiteral(resourceName: "Indian flag")),
