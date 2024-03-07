@@ -11,14 +11,19 @@ import UIKit
 class RecipeCollectionViewController: UICollectionViewController {
     let columnLayout = Layout(
         cellsPerRow:3,
-        minimumInteritemSpacing: 50,
-        minimumLineSpacing: 200,
-        sectionInset: UIEdgeInsets(top: 10, left: 50, bottom: 10, right: 50)
+        minimumInteritemSpacing: 2,
+        minimumLineSpacing: 2,
+        sectionInset: UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
     )
     
-    let recipes = [Recipe(name: "Chinese", recipelist: [RecipeList(recipeName: "Fried Rice"), RecipeList(recipeName: "Shrimp Fried Rice")], imageView: #imageLiteral(resourceName: "Japan")),
-                                Recipe(name: "Cubian", recipelist: [RecipeList(recipeName: "Rice")], imageView: #imageLiteral(resourceName: "cuba flag")),
-                   //                   Recipe(name: "Greek", recipelist: "ha", imageView: #imageLiteral(resourceName: "greek")),
+    let recipes = [
+        Recipe(name: "Japan", recipelist:
+                            [RecipeList(recipeName: "Fried Rice"), RecipeList(recipeName: "Shrimp Fried Rice")], imageView: #imageLiteral(resourceName: "Japan")),
+        Recipe(name: "Cubian", recipelist: [RecipeList(recipeName: "Rice"),RecipeList(recipeName: "Cooked")], imageView: #imageLiteral(resourceName: "cuba flag")),
+                   
+        Recipe(name: "Greek", recipelist: [RecipeList(recipeName: "Recipe")], imageView: #imageLiteral(resourceName: "greek")),
+        Recipe(name: "Greek", recipelist: [RecipeList(recipeName: "Recipe")], imageView: #imageLiteral(resourceName: "greek")),
+                   ]
                    //                   Recipe(name: "Indian", recipelist: "ha", imageView: #imageLiteral(resourceName: "Indian flag")),
                    //                   Recipe(name: "Japanese", recipelist: "ha", imageView: #imageLiteral(resourceName: "Japan")),
                    //                   Recipe(name: "Haitian", recipelist: "ha", imageView: #imageLiteral(resourceName: "Haitian")),
@@ -26,7 +31,7 @@ class RecipeCollectionViewController: UICollectionViewController {
                    //                   Recipe(name: "Salvadorian", recipelist: "ha", imageView: #imageLiteral(resourceName: "salvadorian")),
                    //                   Recipe(name: "Jamaican", recipelist: "ha", imageView: #imageLiteral(resourceName: "Jamaican"))
                    
-    ]
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,7 +49,8 @@ class RecipeCollectionViewController: UICollectionViewController {
     
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of items
-        return recipes[section].recipelist.count
+        //return recipes[section].recipelist.count
+        return recipes.count
     }
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
