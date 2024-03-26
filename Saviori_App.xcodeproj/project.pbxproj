@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F9EB6352BA34AF000910BE6 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9EB6342BA34AF000910BE6 /* SignUpViewController.swift */; };
 		3C9FA9AB2B7A83D200FE21DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9FA9AA2B7A83D200FE21DF /* AppDelegate.swift */; };
 		3C9FA9AD2B7A83D200FE21DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9FA9AC2B7A83D200FE21DF /* SceneDelegate.swift */; };
 		3C9FA9AF2B7A83D200FE21DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9FA9AE2B7A83D200FE21DF /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F9EB6342BA34AF000910BE6 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		3C9FA9A72B7A83D200FE21DF /* Saviori_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Saviori_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C9FA9AA2B7A83D200FE21DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C9FA9AC2B7A83D200FE21DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				3C9FA9AC2B7A83D200FE21DF /* SceneDelegate.swift */,
 				3C9FA9AE2B7A83D200FE21DF /* ViewController.swift */,
 				3C9FA9B02B7A83D200FE21DF /* Main.storyboard */,
+				1F9EB6342BA34AF000910BE6 /* SignUpViewController.swift */,
 				50549C332B98FFE600FD21D6 /* recipeListTableViewController.swift */,
 				5083A8082B910E7F00CA9285 /* RecipeCollectionViewCell.swift */,
 				5083A8062B91071C00CA9285 /* RecipeCollectionViewController.swift */,
@@ -159,6 +162,7 @@
 				3C9FA9AF2B7A83D200FE21DF /* ViewController.swift in Sources */,
 				3C9FA9AB2B7A83D200FE21DF /* AppDelegate.swift in Sources */,
 				3C9FA9AD2B7A83D200FE21DF /* SceneDelegate.swift in Sources */,
+				1F9EB6352BA34AF000910BE6 /* SignUpViewController.swift in Sources */,
 				50549C322B98FB0700FD21D6 /* layout.swift in Sources */,
 				5083A8052B91049800CA9285 /* Recipes.swift in Sources */,
 			);
